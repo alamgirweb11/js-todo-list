@@ -10,26 +10,19 @@
 </head>
 <body>
     <div class="container">
-          <div id="inputArea">
-             <h2 class="text-center text-secondary">Type Your Todo Item</h2> 
-                <div class="row form-group">
-                    <div class="col-md-10">
-                        <input class="form-control" id="typeText" type="text">
-                    </div>
-                    <div class="col-md-2">
-                        <button onclick="" id="AddBtn" class="btn btn-info">Add</button>
-                    </div>
-                </div>
-                    <ul id="myUL">
-                        <li>First Item</li>
-                        <li class="checked">Second Item</li>
-                        <li>First Item</li>
-                        <li class="checked">First Item</li>
-                        <li>First Item</li>
-                    </ul>
+   <div id="myDIV" class="header">
+  <h2 style="margin:5px">My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
 
-          </div>  
-    </div>
+<ul id="myUL">
+  <li>Lorem ipsum dolor sit.</li>
+  <li class="checked">Lorem ipsum dolor sit.</li>
+  <li>Lorem ipsum dolor sit.</li>
+  <li>Lorem ipsum dolor sit.</li>
+</ul>
+</div>
     <script src="main.js"></script>
 </body>
 </html>
